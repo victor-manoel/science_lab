@@ -48,6 +48,10 @@ textarea {
 body {
   margin: 0; }
 
+* {
+  font-family: Arial;
+}
+
 a {
   background: transparent; }
   a:focus {
@@ -1205,13 +1209,13 @@ form input[type="submit"], form button, form input[type="reset"] {
     .main-navigation .menu .menu-item {
       float: left; }
       .main-navigation .menu .menu-item.home a {
-        padding: 28px 30px 31px; }
+        padding: 33px 30px 31px; }
       .main-navigation .menu .menu-item a {
         font-size: 13px;
         font-size: 0.8666666667em;
         text-transform: uppercase;
         font-weight: 400;
-        padding: 32px 20px;
+        padding: 32px 7px;
         display: block;
         color: #ff6633;
         -webkit-transition: .3s ease;
@@ -1374,6 +1378,7 @@ form input[type="submit"], form button, form input[type="reset"] {
     color: #ff6633;
     margin-bottom: 20px; }
   .feature .feature-title {
+    font-family: 'GidolinyaRegular';
     font-size: 30px;
     font-size: 2em;
     font-weight: 300; }
@@ -1444,14 +1449,14 @@ form input[type="submit"], form button, form input[type="reset"] {
       max-width: 100%;
       padding: 20px 100px 20px 20px; }
       .subscribe-form form input[type="text"]:hover, .subscribe-form form input[type="text"]:focus, .subscribe-form form input[type="email"]:hover, .subscribe-form form input[type="email"]:focus {
-        border-color: #69acc7; }
+        border-color: #666666; }
     .subscribe-form form input[type="submit"] {
       position: absolute;
       top: 0px;
       bottom: 0px;
       right: 0px;
-      background: -webkit-linear-gradient(#69c7b7, #69acc6);
-      background: linear-gradient(#69c7b7, #69acc6);
+      background: #ff6633;
+      background: #ff6633;
       color: white;
       box-shadow: none;
       border-top-left-radius: 0;
@@ -1460,7 +1465,7 @@ form input[type="submit"], form button, form input[type="reset"] {
       -webkit-transition: .3s ease;
               transition: .3s ease; }
       .subscribe-form form input[type="submit"]:hover {
-        box-shadow: inset 0 0 0 200px #69c7b7; }
+        box-shadow: inset 0 0 0 200px #666666; }
 
 .team {
   text-align: center;
